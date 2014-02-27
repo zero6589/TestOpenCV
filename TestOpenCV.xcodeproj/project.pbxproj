@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB110F918BF333100BEB7BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB110F818BF333100BEB7BF /* main.cpp */; };
+		AFB110FB18BF333100BEB7BF /* TestOpenCV.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AFB110FA18BF333100BEB7BF /* TestOpenCV.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFB110F218BF333100BEB7BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AFB110FB18BF333100BEB7BF /* TestOpenCV.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFB110F418BF333100BEB7BF /* TestOpenCV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestOpenCV; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB110F818BF333100BEB7BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AFB110FA18BF333100BEB7BF /* TestOpenCV.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestOpenCV.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB110F118BF333100BEB7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB110E918BF333100BEB7BF = {
+			isa = PBXGroup;
+			children = (
+				AFB110F718BF333100BEB7BF /* TestOpenCV */,
+				AFB110F518BF333100BEB7BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB110F518BF333100BEB7BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB110F418BF333100BEB7BF /* TestOpenCV */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB110F718BF333100BEB7BF /* TestOpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				AFB110F818BF333100BEB7BF /* main.cpp */,
+				AFB110FA18BF333100BEB7BF /* TestOpenCV.1 */,
+			);
+			path = TestOpenCV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB110F318BF333100BEB7BF /* TestOpenCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB110FE18BF333100BEB7BF /* Build configuration list for PBXNativeTarget "TestOpenCV" */;
+			buildPhases = (
+				AFB110F018BF333100BEB7BF /* Sources */,
+				AFB110F118BF333100BEB7BF /* Frameworks */,
+				AFB110F218BF333100BEB7BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestOpenCV;
+			productName = TestOpenCV;
+			productReference = AFB110F418BF333100BEB7BF /* TestOpenCV */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB110EB18BF333100BEB7BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "zero6589@naver.com";
+			};
+			buildConfigurationList = AFB110EE18BF333100BEB7BF /* Build configuration list for PBXProject "TestOpenCV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFB110E918BF333100BEB7BF;
+			productRefGroup = AFB110F518BF333100BEB7BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB110F318BF333100BEB7BF /* TestOpenCV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB110F018BF333100BEB7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB110F918BF333100BEB7BF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFB110FC18BF333100BEB7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFB110FD18BF333100BEB7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFB110FF18BF333100BEB7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFB1110018BF333100BEB7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB110EE18BF333100BEB7BF /* Build configuration list for PBXProject "TestOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB110FC18BF333100BEB7BF /* Debug */,
+				AFB110FD18BF333100BEB7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB110FE18BF333100BEB7BF /* Build configuration list for PBXNativeTarget "TestOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB110FF18BF333100BEB7BF /* Debug */,
+				AFB1110018BF333100BEB7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB110EB18BF333100BEB7BF /* Project object */;
+}
