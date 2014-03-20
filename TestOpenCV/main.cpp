@@ -10,7 +10,7 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/legacy/compat.hpp>
 #include <vector>
-
+//test
 
 IplImage* m_image = NULL;
 IplImage* m_gray = NULL;
@@ -115,9 +115,9 @@ bool Init(int argc, const char * argv[])
     cvNamedWindow("Contours", 1);
     cvMoveWindow("Contours", 300, 0);
     cvNamedWindow("SURF", 1);
-    cvMoveWindow("SURF", 650, 0);        
+    cvMoveWindow("SURF", 300 + m_image->width, 0);        
     cvNamedWindow("Key Point Matching", 1);
-    cvMoveWindow("Key Point Matching", 0, 300);   
+    cvMoveWindow("Key Point Matching", 0, 70 + m_image->height);   
     
     cvNamedWindow("Contours Control", 1);
     cvMoveWindow("Contours Control", 0, 0);
