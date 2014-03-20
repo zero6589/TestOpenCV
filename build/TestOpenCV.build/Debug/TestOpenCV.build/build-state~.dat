@@ -1,0 +1,90 @@
+TTestOpenCV
+v4
+r1
+cCheck dependencies
+cCompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV normal x86_64
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/../../../../opt/local/lib/libopencv_core.2.4.8.dylib
+c00000000530120D1000000000023A850
+t1392582865
+s2336848
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/../../../../opt/local/lib/libopencv_highgui.2.4.8.dylib
+c00000000530120E6000000000005039C
+t1392582886
+s328604
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/../../../../opt/local/lib/libopencv_imgproc.2.4.8.dylib
+c00000000530120DF0000000000220520
+t1392582879
+s2229536
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/../../../../opt/local/lib/libopencv_legacy.2.4.8.dylib
+c0000000053012107000000000010BF2C
+t1392582919
+s1097516
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/../../../../opt/local/lib/libopencv_ml.2.4.8.dylib
+c00000000530120DA0000000000074FD4
+t1392582874
+s479188
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/../../../../opt/local/lib/libopencv_nonfree.2.4.8.dylib
+c000000005301211700000000000215B8
+t1392582935
+s136632
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp
+c0000000053193E130000000000000F78
+t1394163219
+s3960
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV
+t2
+s0
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV.LinkFileList
+c00000000531959530000000000000073
+t1394170195
+s115
+
+N/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+CBuild AST from /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies685d07d390c9b841^5c730bd390c9b841^---0#1#0#--18"Check dependencies36"E26D1188-D63B-4F7F-9B2A-CB96BAB14C26-
+
+CCompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415862995.046439
+e415862995.987554
+r1
+xCompileC
+xbuild/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o
+x/Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp06f70bd390c9b841^67d4fcd390c9b841^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp0000000000000000^1918"CompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seonghyeonbag/Desktop/TestOpenCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-generated-files.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-own-target-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-all-target-headers.hmap -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-project-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/include -I/opt/local/include -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources/x86_64 -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -MMD -MT dependencies -MF /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.d -c /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o36"F5EF6835-6799-4EFB-97EA-4A2A63781DAB-
+
+CLd /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV normal x86_64
+s415862995.995667
+e415862996.455609
+r1
+xLd
+x/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Link /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV6bf0fed390c9b841^2fa374d490c9b841^---0#0#0#--701"Ld build/Debug/TestOpenCV normal x86_64    cd /Users/seonghyeonbag/Desktop/TestOpenCV    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang++ -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -L/opt/local/lib -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -filelist /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV.LinkFileList -mmacosx-version-min=10.7 -lopencv_ml.2.4.8 -lopencv_highgui.2.4.8 -lopencv_core.2.4.8 -lopencv_imgproc.2.4.8 -lopencv_legacy.2.4.8 -lopencv_nonfree.2.4.8 -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV36"6CCE4701-0DFF-4758-BB50-09811920A1C0-
+
