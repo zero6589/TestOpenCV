@@ -235,7 +235,7 @@ void on_SURF_Trackbar(int pos)
         center.y = cvRound(point->pt.y);
         radius = cvRound(point->size * 1.2 / 9.0 * 2.0);
         
-        cvCircle(m_surfImage, center, radius, cvScalar(0, 0, 255), 1, 8, 0);
+        cvCircle(m_surfImage, center, radius, cvScalar(255, 255, 255), 1, 8, 0);
     }
     
     cvShowImage("SURF", m_surfImage);
@@ -273,7 +273,7 @@ void on_Matching_Trackbar(int pos)
         CvPoint from = cvPointFrom32f(pt1->pt);
         CvPoint to = cvPoint(cvRound(m_image->width + pt2->pt.x), cvRound(m_image->height + pt2->pt.y));
         
-        cvLine(m_matching_sum, from, to, cvScalar(0, 0, 255));
+        cvLine(m_matching_sum, from, to, cvScalar(255, 255, 255), 1.2, 4);
     }
     
     cvShowImage("Key Point Matching", m_matching_sum);
