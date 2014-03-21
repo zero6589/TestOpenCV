@@ -1,9 +1,194 @@
 TTestOpenCV
-v4
+v6
 r1
 cCheck dependencies
 cCompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000532BB1D2000000000000044C
+t1395372498
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532BB1D200000000000001DE
+t1395372498
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
+c00000000532BB1DE00000000000022C4
+t1395372510
+s8900
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+c00000000532BB1DE000000000000681C
+t1395372510
+s26652
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libstdc++.dylib
+c00000000532BB1DE00000000000A2A44
+t1395372510
+s666180
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+c00000000532BB1DE0000000000004734
+t1395372510
+s18228
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+c00000000532BB1DE000000000000FC6C
+t1395372510
+s64620
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+c00000000532BB1DE000000000000F6A0
+t1395372510
+s63136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+c00000000532BB1DE0000000000006254
+t1395372510
+s25172
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+c00000000532BB1DE000000000000E0F8
+t1395372510
+s57592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+c00000000532BB1DE000000000000D6DC
+t1395372510
+s55004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+c00000000532BB1DE0000000000006308
+t1395372510
+s25352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+c00000000532BB1DE0000000000004050
+t1395372510
+s16464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+c00000000532BB1DE0000000000008570
+t1395372510
+s34160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+c00000000532BB1DE0000000000005EA0
+t1395372510
+s24224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+c00000000532BB1DE0000000000005FAC
+t1395372510
+s24492
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+c00000000532BB1DE0000000000004440
+t1395372510
+s17472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+c00000000532BB1DE000000000000AA28
+t1395372510
+s43560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+c00000000532BB1DE0000000000003E2C
+t1395372510
+s15916
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+c00000000532BB1DE0000000000030B04
+t1395372510
+s199428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+c00000000532BB1DE0000000000005E54
+t1395372510
+s24148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+c00000000532BB1DE0000000000006A90
+t1395372510
+s27280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+c00000000532BB1DE00000000000178AC
+t1395372510
+s96428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+c00000000532BB1DE000000000001ADC8
+t1395372510
+s110024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+c00000000532BB1DE000000000001028C
+t1395372510
+s66188
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+c00000000532BB1DE0000000000008800
+t1395372510
+s34816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+c00000000532BB1DE0000000000011090
+t1395372510
+s69776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+c00000000532BB1DE000000000000882C
+t1395372510
+s34860
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+c00000000532BB1DE00000000000067AC
+t1395372510
+s26540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+c00000000532BB1DE0000000000008DEC
+t1395372510
+s36332
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+c00000000532BB1DE0000000000004C08
+t1395372510
+s19464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+c00000000532BB1DE0000000000002428
+t1395372510
+s9256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+c00000000532BB1DE000000000000439C
+t1395372510
+s17308
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+c00000000532BB1DE0000000000006768
+t1395372510
+s26472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+c00000000532BB1DE00000000000172F4
+t1395372510
+s94964
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+c00000000532BB1FA0000000000001770
+t1395372538
+s6000
 
 N/Developer/SDKs/MacOSX10.7.sdk
 c000000004E7AD70B00000000000000EE
@@ -41,13 +226,13 @@ t1392582935
 s136632
 
 N/Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp
-c00000000532AA1B400000000000026B9
-t1395302836
-s9913
+c00000000532BEDCE00000000000026FF
+t1395387854
+s9983
 
 N/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV
-t1395302820
-s43992
+t2
+s0
 
 N/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV.LinkFileList
 c00000000531959530000000000000073
@@ -55,8 +240,8 @@ t1394170195
 s115
 
 N/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o
-t1395302820
-s81572
+t1395387857
+s95216
 
 N/opt/local/include/opencv2/calib3d/calib3d.hpp
 c0000000052BDB43E0000000000009303
@@ -198,16 +383,46 @@ c0000000052BDB43E0000000000000970
 t1388164158
 s2416
 
+N/opt/local/lib/libopencv_core.2.4.8.dylib
+c00000000530120D1000000000023A850
+t1392582865
+s2336848
+
+N/opt/local/lib/libopencv_highgui.2.4.8.dylib
+c00000000530120E6000000000005039C
+t1392582886
+s328604
+
+N/opt/local/lib/libopencv_imgproc.2.4.8.dylib
+c00000000530120DF0000000000220520
+t1392582879
+s2229536
+
+N/opt/local/lib/libopencv_legacy.2.4.8.dylib
+c0000000053012107000000000010BF2C
+t1392582919
+s1097516
+
+N/opt/local/lib/libopencv_ml.2.4.8.dylib
+c00000000530120DA0000000000074FD4
+t1392582874
+s479188
+
+N/opt/local/lib/libopencv_nonfree.2.4.8.dylib
+c000000005301211700000000000215B8
+t1392582935
+s136632
+
 CBuild AST from /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp
 r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf27a2036d9dab841^59a52036d9dab841^---0#1#0#--18"Check dependencies36"6E83EBA9-883A-4749-B0C8-316BFEAE5D3B-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies821bed5025dcb841^d768ed5025dcb841^---0#1#1#--18"Check dependencies36"33F8EE86-E739-4CCB-8E99-9D5DE78943FF-
 
 CCompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s416995638.135924
-e416995638.771596
+s417080656.927309
+e417080657.533923
 r1
 xCompileC
 xbuild/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o
@@ -216,15 +431,93 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp93df2236d9dab841^5187c536d9dab841^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp0000000000000000^1918"CompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seonghyeonbag/Desktop/TestOpenCV    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-generated-files.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-own-target-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-all-target-headers.hmap -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-project-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/include -I/opt/local/include -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources/x86_64 -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -MMD -MT dependencies -MF /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.d -c /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o36"5E604F19-CB20-4A6E-99D5-ED2F5EE47F51-
+d/Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp
+d/opt/local/include/opencv2/opencv.hpp
+d/opt/local/include/opencv2/core/core_c.h
+d/opt/local/include/opencv2/core/types_c.h
+d/opt/local/include/opencv2/core/core.hpp
+d/opt/local/include/opencv2/core/version.hpp
+d/opt/local/include/opencv2/core/operations.hpp
+d/opt/local/include/opencv2/core/mat.hpp
+d/opt/local/include/opencv2/flann/miniflann.hpp
+d/opt/local/include/opencv2/flann/defines.h
+d/opt/local/include/opencv2/flann/config.h
+d/opt/local/include/opencv2/imgproc/imgproc_c.h
+d/opt/local/include/opencv2/imgproc/types_c.h
+d/opt/local/include/opencv2/imgproc/imgproc.hpp
+d/opt/local/include/opencv2/photo/photo.hpp
+d/opt/local/include/opencv2/photo/photo_c.h
+d/opt/local/include/opencv2/video/video.hpp
+d/opt/local/include/opencv2/video/tracking.hpp
+d/opt/local/include/opencv2/video/background_segm.hpp
+d/opt/local/include/opencv2/features2d/features2d.hpp
+d/opt/local/include/opencv2/objdetect/objdetect.hpp
+d/opt/local/include/opencv2/calib3d/calib3d.hpp
+d/opt/local/include/opencv2/ml/ml.hpp
+d/opt/local/include/opencv2/highgui/highgui_c.h
+d/opt/local/include/opencv2/highgui/highgui.hpp
+d/opt/local/include/opencv2/contrib/contrib.hpp
+d/opt/local/include/opencv2/contrib/retina.hpp
+d/opt/local/include/opencv2/contrib/openfabmap.hpp
+d/opt/local/include/opencv2/legacy/compat.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp165"CompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb075ed5025dcb841^abb1885125dcb841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp0000000000000000^2581"CompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seonghyeonbag/Desktop/TestOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-generated-files.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-own-target-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-all-target-headers.hmap -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-project-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/include -I/opt/local/include -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources/x86_64 -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -MMD -MT dependencies -MF /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.dia -c /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o36"F07B7DC3-96BB-47C8-A542-BD579C6C1E11-
+b1C7C1EA7-310D-404F-96E3-F1E4C69B8863
 
 CLd /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV normal x86_64
-s416995638.779178
-e416995638.803476
-r1
+s417080657.534884
+e417080657.553708
+r0
 xLd
 x/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV
 xnormal
 xx86_64
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Link /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCVf985c736d9dab841^64b1cd36d9dab841^---0#0#0#--701"Ld build/Debug/TestOpenCV normal x86_64    cd /Users/seonghyeonbag/Desktop/TestOpenCV    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang++ -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -L/opt/local/lib -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -filelist /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV.LinkFileList -mmacosx-version-min=10.7 -lopencv_ml.2.4.8 -lopencv_highgui.2.4.8 -lopencv_core.2.4.8 -lopencv_imgproc.2.4.8 -lopencv_legacy.2.4.8 -lopencv_nonfree.2.4.8 -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV36"4ADC641D-4FBF-479F-B4AB-B5A8DED7DE26-
+d/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
+d/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o
+d/opt/local/lib/libopencv_ml.2.4.8.dylib
+d/opt/local/lib/libopencv_highgui.2.4.8.dylib
+d/opt/local/lib/libopencv_core.2.4.8.dylib
+d/opt/local/lib/libopencv_imgproc.2.4.8.dylib
+d/opt/local/lib/libopencv_legacy.2.4.8.dylib
+d/opt/local/lib/libopencv_nonfree.2.4.8.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libstdc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+oUndefined symbols for architecture x86_64:
+o  "_cvCreateButton", referenced from:
+o      _main in main.o
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Link /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV39"Ld build/Debug/TestOpenCV normal x86_646ef9885125dcb841^b2be8d5125dcb841^-231"Undefined symbols for architecture x86_64:  "_cvCreateButton", referenced from:      _main in main.old: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@35""_cvCreateButton", referenced from:-417080657#43#38#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-417080657#81#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-417080657#103#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-417080657#151#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#1#--1011"Ld build/Debug/TestOpenCV normal x86_64    cd /Users/seonghyeonbag/Desktop/TestOpenCV    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -L/opt/local/lib -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -filelist /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV.LinkFileList -mmacosx-version-min=10.7 -lopencv_ml.2.4.8 -lopencv_highgui.2.4.8 -lopencv_core.2.4.8 -lopencv_imgproc.2.4.8 -lopencv_legacy.2.4.8 -lopencv_nonfree.2.4.8 -Xlinker -dependency_info -Xlinker /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV_dependency_info.dat -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV36"4191BFA2-5CE2-4F1B-B99E-78BF754F19EA-
+b1C7C1EA7-310D-404F-96E3-F1E4C69B8863
 
