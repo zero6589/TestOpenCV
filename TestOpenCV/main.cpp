@@ -59,6 +59,8 @@ int main (int argc, const char * argv[])
 {
     // insert code here...
     if(Init(argc, argv)) {
+//        cvCreateButton();
+        
         on_Contours_Trackbar();
         on_SURF_Trackbar(500);
         on_Matching_Trackbar(30);
@@ -116,22 +118,24 @@ bool Init(int argc, const char * argv[])
     cvMoveWindow("Contours", 300, 0);
     cvNamedWindow("SURF", 1);
     cvMoveWindow("SURF", 300 + m_image->width, 0);        
-    cvNamedWindow("Key Point Matching", 1);
-    cvMoveWindow("Key Point Matching", 0, 70 + m_image->height);   
-    
+  
     cvNamedWindow("Contours Control", 1);
     cvMoveWindow("Contours Control", 0, 0);
     cvResizeWindow("Contours Control", 300, 30);
+
+    cvNamedWindow("SURF Control", 1);
+    cvMoveWindow("SURF Control", 0, 150);
+    cvResizeWindow("SURF Control", 300, 30);
     
-    cvNamedWindow("Control", 1);
-    cvMoveWindow("Control", 0, 200);
-    cvResizeWindow("Control", 300, 50);
+    cvNamedWindow("Key Point Matching", 1);
+    cvMoveWindow("Key Point Matching", 0, 70 + m_image->height);   
     
     cvCreateTrackbar("Contours Low", "Contours Control", &m_contours_thresh_low, 255, change_Contour_Low);
     cvCreateTrackbar("Contours High", "Contours Control", &m_contours_thresh_high, 255, change_Contour_High);
     
-    cvCreateTrackbar("SURF", "Control", &m_surf_thresh, 2000, on_SURF_Trackbar);
-    cvCreateTrackbar("Matching", "Control", &m_matching_thresh, 50, on_Matching_Trackbar);
+    cvCreateTrackbar("SURF", "SURF Control", &m_surf_thresh, 2000, on_SURF_Trackbar);
+    
+    cvCreateTrackbar("Matching", "Key Point Matching", &m_matching_thresh, 50, on_Matching_Trackbar);
     
     printf("Load Image Success!\n");
     printf("Init Complete!\n");
