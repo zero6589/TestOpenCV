@@ -226,13 +226,13 @@ t1392582935
 s136632
 
 N/Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp
-c00000000532BEDCE00000000000026FF
-t1395387854
-s9983
+c00000000532FD25700000000000028AF
+t1395642967
+s10415
 
 N/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV
-t2
-s0
+t1395642972
+s43536
 
 N/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV.LinkFileList
 c00000000531959530000000000000073
@@ -240,8 +240,8 @@ t1394170195
 s115
 
 N/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o
-t1395387857
-s95216
+t1395644627
+s96596
 
 N/opt/local/include/opencv2/calib3d/calib3d.hpp
 c0000000052BDB43E0000000000009303
@@ -418,11 +418,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies821bed5025dcb841^d768ed5025dcb841^---0#1#1#--18"Check dependencies36"33F8EE86-E739-4CCB-8E99-9D5DE78943FF-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf38d345210e0b841^d47e375210e0b841^---0#1#1#--18"Check dependencies36"A3CC3E33-7CF0-47CA-8A03-666477E870A7-
 
 CCompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s417080656.927309
-e417080657.533923
+s417337426.214328
+e417337427.080007
 r1
 xCompileC
 xbuild/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o
@@ -460,13 +460,13 @@ d/opt/local/include/opencv2/contrib/contrib.hpp
 d/opt/local/include/opencv2/contrib/retina.hpp
 d/opt/local/include/opencv2/contrib/openfabmap.hpp
 d/opt/local/include/opencv2/legacy/compat.hpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp165"CompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb075ed5025dcb841^abb1885125dcb841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp0000000000000000^2581"CompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seonghyeonbag/Desktop/TestOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-generated-files.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-own-target-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-all-target-headers.hmap -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-project-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/include -I/opt/local/include -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources/x86_64 -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -MMD -MT dependencies -MF /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.dia -c /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o36"F07B7DC3-96BB-47C8-A542-BD579C6C1E11-
-b1C7C1EA7-310D-404F-96E3-F1E4C69B8863
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp165"CompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc8ea365210e0b841^fe7b145310e0b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp0000000000000000^2560"CompileC build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o TestOpenCV/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seonghyeonbag/Desktop/TestOpenCV    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-generated-files.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-own-target-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-all-target-headers.hmap -iquote /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/TestOpenCV-project-headers.hmap -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/include -I/opt/local/include -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources/x86_64 -I/Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/DerivedSources -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -MMD -MT dependencies -MF /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.dia -c /Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/main.cpp -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/main.o36"0FB469BA-3843-4112-8265-9F57E257EA78-
+b37BE5301-70CC-4A5F-879A-C9BAE3F964B5
 
 CLd /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV normal x86_64
-s417080657.534884
-e417080657.553708
-r0
+s417337427.081030
+e417337427.317010
+r1
 xLd
 x/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV
 xnormal
@@ -513,11 +513,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-oUndefined symbols for architecture x86_64:
-o  "_cvCreateButton", referenced from:
-o      _main in main.o
-old: symbol(s) not found for architecture x86_64
-oclang: error: linker command failed with exit code 1 (use -v to see invocation)
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Link /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV39"Ld build/Debug/TestOpenCV normal x86_646ef9885125dcb841^b2be8d5125dcb841^-231"Undefined symbols for architecture x86_64:  "_cvCreateButton", referenced from:      _main in main.old: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@35""_cvCreateButton", referenced from:-417080657#43#38#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-417080657#81#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-417080657#103#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-417080657#151#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#1#--1011"Ld build/Debug/TestOpenCV normal x86_64    cd /Users/seonghyeonbag/Desktop/TestOpenCV    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -L/opt/local/lib -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -filelist /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV.LinkFileList -mmacosx-version-min=10.7 -lopencv_ml.2.4.8 -lopencv_highgui.2.4.8 -lopencv_core.2.4.8 -lopencv_imgproc.2.4.8 -lopencv_legacy.2.4.8 -lopencv_nonfree.2.4.8 -Xlinker -dependency_info -Xlinker /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV_dependency_info.dat -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV36"4191BFA2-5CE2-4F1B-B99E-78BF754F19EA-
-b1C7C1EA7-310D-404F-96E3-F1E4C69B8863
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Link /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV39"Ld build/Debug/TestOpenCV normal x86_6464c9145310e0b841^a6d0515310e0b841^---0#0#1#--1011"Ld build/Debug/TestOpenCV normal x86_64    cd /Users/seonghyeonbag/Desktop/TestOpenCV    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -L/opt/local/lib -F/Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug -filelist /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV.LinkFileList -mmacosx-version-min=10.7 -lopencv_ml.2.4.8 -lopencv_highgui.2.4.8 -lopencv_core.2.4.8 -lopencv_imgproc.2.4.8 -lopencv_legacy.2.4.8 -lopencv_nonfree.2.4.8 -Xlinker -dependency_info -Xlinker /Users/seonghyeonbag/Desktop/TestOpenCV/build/TestOpenCV.build/Debug/TestOpenCV.build/Objects-normal/x86_64/TestOpenCV_dependency_info.dat -o /Users/seonghyeonbag/Desktop/TestOpenCV/build/Debug/TestOpenCV36"E632FDC1-9D86-4B4F-95BF-707696EF754D-
+b37BE5301-70CC-4A5F-879A-C9BAE3F964B5
 
