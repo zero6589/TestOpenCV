@@ -13,6 +13,7 @@
 //test
 
 IplImage* m_image = NULL;
+IplImage* m_list = NULL;
 IplImage* m_gray = NULL;
 IplImage* m_surfImage = NULL;
 
@@ -26,6 +27,7 @@ int m_contours_thresh_low = 100;
 int m_contours_thresh_high = 200;
 int m_surf_thresh = 500;
 int m_matching_thresh = 30;
+int m_sample_thresh = 1;
 CvMemStorage* m_storage = NULL;
 CvMemStorage* m_surf_storage = NULL;
 CvMemStorage* m_matching_storage = NULL;
@@ -34,12 +36,12 @@ CvSURFParams m_params;
 CvSeq* m_imageKeypoints = NULL;
 CvSeq* m_imageDescriptors = NULL;
 
-
-const char* load_file = "/Users/Macintosh/Desktop";
-const char* load_file2 = "/Users/Macintosh/Desktop";
+const char* load_image[10];
+const char* load_list = "/Users/Macintosh/Desktop";
 const int DIM_VECTOR = 128;
 
 bool Init(int argc, const char * argv[]);
+void Load_Image(int pos);
 
 void change_Contour_Low(int pos);
 void change_Contour_High(int pos);
@@ -59,14 +61,20 @@ int main (int argc, const char * argv[])
 {
     // insert code here...
     if(Init(argc, argv)) {
-//        cvCreateButton();
+        printf("Program Operating!\n");
         
         on_Contours_Trackbar();
         on_SURF_Trackbar(500);
         on_Matching_Trackbar(30);
         
-        cvWaitKey();
-
+        int c;
+        
+        while(1) {
+            c = cvWaitKey(0);
+            
+            if(c == '\x1b') return 1;
+        }
+        
         Destroy();
         
         return 0;
@@ -81,66 +89,70 @@ int main (int argc, const char * argv[])
 //초기화 함수 : 아규먼트 할당과 이미지파일 로딩, 윈도우 생성
 bool Init(int argc, const char * argv[])
 {
-    if (argc != 3) {
-        printf("Error : Argument Error!\n");
-        return false;
-    }
+    load_image[0] = "./sample00.jpg"; load_image[1] = "./sample01.jpg"; load_image[2] = "./sample02.jpg";
+    load_image[3] = "./sample03.jpg"; load_image[4] = "./sample04.jpg"; load_image[5] = "./sample05.jpg";
+    load_image[6] = "./sample06.jpg"; load_image[7] = "./sample07.jpg"; load_image[8] = "./sample08.jpg";
+    load_image[9] = "./sample09.jpg";
+    load_list = "./list.jpg";
     
-    load_file = argv[1];
-    load_file2 = argv[2];
+    Load_Image(m_sample_thresh);
     
-    m_image = cvLoadImage(load_file);
-    //m_image = cvLoadImage("/Users/seonghyeonbag/Desktop/TestOpenCV/TestOpenCV/test.jpg");
-    m_image2 = cvLoadImage(load_file2);
-    m_matching_gray = cvLoadImage(load_file, CV_LOAD_IMAGE_GRAYSCALE);
-    m_gray2 = cvLoadImage(load_file2, CV_LOAD_IMAGE_GRAYSCALE);
-    
-    if(m_image == NULL || m_image2 == NULL) {
-        printf("Error : Load Image Failed!\n");
-        return false;
-    }
-    
-    CvSize sz = cvSize(m_image->width + m_image2->width, m_image->height + m_image2->height);
-    
-    m_sumImage = cvCreateImage(sz, IPL_DEPTH_8U, 3);
-    
-    //이미지1 표현
-    cvSetImageROI(m_sumImage, cvRect(0, 0, m_image->width, m_image->height));
-    cvCopy(m_image, m_sumImage);
-    
-    //이미지2 표현
-    cvSetImageROI(m_sumImage, cvRect(m_image->width, m_image->height, m_image2->width, m_image2->height));
-    cvCopy(m_image2, m_sumImage);
-    
-    cvResetImageROI(m_sumImage);
+    cvNamedWindow("Sample", 1);
+    cvMoveWindow("Sample", 0, 81);
+    cvCreateTrackbar("Sample", "Sample", &m_sample_thresh, 9, Load_Image);
     
     cvNamedWindow("Contours", 1);
-    cvMoveWindow("Contours", 300, 0);
+    cvMoveWindow("Contours", m_image->width, 0);
+    cvCreateTrackbar("Contours Low", "Contours", &m_contours_thresh_low, 255, change_Contour_Low);
+    cvCreateTrackbar("Contours High", "Contours", &m_contours_thresh_high, 255, change_Contour_High);
+    
     cvNamedWindow("SURF", 1);
-    cvMoveWindow("SURF", 300 + m_image->width, 0);        
-  
-    cvNamedWindow("Contours Control", 1);
-    cvMoveWindow("Contours Control", 0, 0);
-    cvResizeWindow("Contours Control", 300, 30);
-
-    cvNamedWindow("SURF Control", 1);
-    cvMoveWindow("SURF Control", 0, 150);
-    cvResizeWindow("SURF Control", 300, 30);
-    
+    cvMoveWindow("SURF", 2 * m_image->width, 81);
+    cvCreateTrackbar("SURF", "SURF", &m_surf_thresh, 2000, on_SURF_Trackbar);
+\
     cvNamedWindow("Key Point Matching", 1);
-    cvMoveWindow("Key Point Matching", 0, 70 + m_image->height);   
-    
-    cvCreateTrackbar("Contours Low", "Contours Control", &m_contours_thresh_low, 255, change_Contour_Low);
-    cvCreateTrackbar("Contours High", "Contours Control", &m_contours_thresh_high, 255, change_Contour_High);
-    
-    cvCreateTrackbar("SURF", "SURF Control", &m_surf_thresh, 2000, on_SURF_Trackbar);
-    
+    cvMoveWindow("Key Point Matching", 0, 140 + m_image->height);
     cvCreateTrackbar("Matching", "Key Point Matching", &m_matching_thresh, 50, on_Matching_Trackbar);
     
     printf("Load Image Success!\n");
     printf("Init Complete!\n");
     
     return true;
+}
+
+
+void Load_Image(int pos)
+{
+    m_image = cvLoadImage(load_image[pos]);
+    m_list = cvLoadImage(load_list);
+    
+    m_matching_gray = cvLoadImage(load_image[pos], CV_LOAD_IMAGE_GRAYSCALE);
+    m_gray2 = cvLoadImage(load_list, CV_LOAD_IMAGE_GRAYSCALE);
+    
+    if(m_image == NULL || m_list == NULL) {
+        printf("Error : Load Image Failed!\n");
+    }
+    
+    cvShowImage("Sample", m_image);
+    
+    CvSize sz = cvSize(m_image->width + m_list->width, m_image->height + m_list->height);
+    
+    if(m_sumImage == NULL) m_sumImage = cvCreateImage(sz, IPL_DEPTH_8U, 3);
+    else cvZero(m_sumImage);
+    
+    //이미지1 표현
+    cvSetImageROI(m_sumImage, cvRect(0, 0, m_image->width, m_image->height));
+    cvCopy(m_image, m_sumImage);
+    
+    //이미지2 표현
+    cvSetImageROI(m_sumImage, cvRect(m_image->width, m_image->height, m_list->width, m_list->height));
+    cvCopy(m_list, m_sumImage);
+    
+    cvResetImageROI(m_sumImage);
+    
+    on_Contours_Trackbar();
+    on_SURF_Trackbar(m_surf_thresh);
+    on_Matching_Trackbar(m_matching_thresh);
 }
 
 
